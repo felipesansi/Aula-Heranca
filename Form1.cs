@@ -62,6 +62,7 @@ namespace Heranca
         {
             if (check_pf.Checked)
             {
+                
                 Fisica Objfisica = new Fisica(Tbx_nome.Text, Tbx_ende.Text, Mask_tel.Text,Txb_email.Text,Mask_cpf.Text,Mask_data.Text);
                 ListFisica.Add(Objfisica);
                 MessageBox.Show("Dados de pessoa física cadastrados com sucesso", "Mensagem",MessageBoxButtons.OK, MessageBoxIcon.Information);
