@@ -30,27 +30,27 @@
         {
             this.check_pf = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.Tbx_nome = new System.Windows.Forms.TextBox();
+            this.Tbx_ende = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.Txb_email = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.Mask_tel = new System.Windows.Forms.MaskedTextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.check_pj = new System.Windows.Forms.CheckBox();
             this.Painel_pf = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
-            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
+            this.Mask_data = new System.Windows.Forms.MaskedTextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
+            this.Mask_cpf = new System.Windows.Forms.MaskedTextBox();
             this.Painel_pj = new System.Windows.Forms.Panel();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.Tbx_fantasia = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.maskedTextBox5 = new System.Windows.Forms.MaskedTextBox();
+            this.Mask_cnpj = new System.Windows.Forms.MaskedTextBox();
             this.Btn_salvar = new System.Windows.Forms.Button();
-            this.BtnExbir = new System.Windows.Forms.Button();
+            this.BtnExibir = new System.Windows.Forms.Button();
             this.Painel_pf.SuspendLayout();
             this.Painel_pj.SuspendLayout();
             this.SuspendLayout();
@@ -77,21 +77,21 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Nome:";
             // 
-            // textBox1
+            // Tbx_nome
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(90, 66);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(383, 22);
-            this.textBox1.TabIndex = 2;
+            this.Tbx_nome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tbx_nome.Location = new System.Drawing.Point(90, 66);
+            this.Tbx_nome.Name = "Tbx_nome";
+            this.Tbx_nome.Size = new System.Drawing.Size(383, 22);
+            this.Tbx_nome.TabIndex = 2;
             // 
-            // textBox2
+            // Tbx_ende
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(108, 120);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(365, 22);
-            this.textBox2.TabIndex = 4;
+            this.Tbx_ende.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tbx_ende.Location = new System.Drawing.Point(108, 120);
+            this.Tbx_ende.Name = "Tbx_ende";
+            this.Tbx_ende.Size = new System.Drawing.Size(365, 22);
+            this.Tbx_ende.TabIndex = 4;
             // 
             // label2
             // 
@@ -103,13 +103,13 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Endereço:";
             // 
-            // textBox3
+            // Txb_email
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(100, 235);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(373, 22);
-            this.textBox3.TabIndex = 6;
+            this.Txb_email.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txb_email.Location = new System.Drawing.Point(100, 235);
+            this.Txb_email.Name = "Txb_email";
+            this.Txb_email.Size = new System.Drawing.Size(373, 22);
+            this.Txb_email.TabIndex = 6;
             // 
             // label3
             // 
@@ -121,14 +121,14 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "E-mail:";
             // 
-            // maskedTextBox1
+            // Mask_tel
             // 
-            this.maskedTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox1.Location = new System.Drawing.Point(108, 177);
-            this.maskedTextBox1.Mask = "(00) 0 0000-0000";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(365, 22);
-            this.maskedTextBox1.TabIndex = 7;
+            this.Mask_tel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Mask_tel.Location = new System.Drawing.Point(108, 177);
+            this.Mask_tel.Mask = "(00) 0 0000-0000";
+            this.Mask_tel.Name = "Mask_tel";
+            this.Mask_tel.Size = new System.Drawing.Size(365, 22);
+            this.Mask_tel.TabIndex = 7;
             // 
             // label4
             // 
@@ -165,9 +165,9 @@
             // Painel_pf
             // 
             this.Painel_pf.Controls.Add(this.label7);
-            this.Painel_pf.Controls.Add(this.maskedTextBox3);
+            this.Painel_pf.Controls.Add(this.Mask_data);
             this.Painel_pf.Controls.Add(this.label6);
-            this.Painel_pf.Controls.Add(this.maskedTextBox2);
+            this.Painel_pf.Controls.Add(this.Mask_cpf);
             this.Painel_pf.Location = new System.Drawing.Point(12, 284);
             this.Painel_pf.Name = "Painel_pf";
             this.Painel_pf.Size = new System.Drawing.Size(532, 121);
@@ -184,14 +184,14 @@
             this.label7.TabIndex = 14;
             this.label7.Text = "Data de nascimento";
             // 
-            // maskedTextBox3
+            // Mask_data
             // 
-            this.maskedTextBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox3.Location = new System.Drawing.Point(157, 65);
-            this.maskedTextBox3.Mask = "00/00/0000";
-            this.maskedTextBox3.Name = "maskedTextBox3";
-            this.maskedTextBox3.Size = new System.Drawing.Size(86, 22);
-            this.maskedTextBox3.TabIndex = 13;
+            this.Mask_data.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Mask_data.Location = new System.Drawing.Point(157, 65);
+            this.Mask_data.Mask = "00/00/0000";
+            this.Mask_data.Name = "Mask_data";
+            this.Mask_data.Size = new System.Drawing.Size(86, 22);
+            this.Mask_data.TabIndex = 13;
             // 
             // label6
             // 
@@ -203,34 +203,34 @@
             this.label6.TabIndex = 12;
             this.label6.Text = "CPF:";
             // 
-            // maskedTextBox2
+            // Mask_cpf
             // 
-            this.maskedTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox2.Location = new System.Drawing.Point(96, 20);
-            this.maskedTextBox2.Mask = "000.000.000-00";
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(124, 22);
-            this.maskedTextBox2.TabIndex = 11;
+            this.Mask_cpf.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Mask_cpf.Location = new System.Drawing.Point(96, 20);
+            this.Mask_cpf.Mask = "000.000.000-00";
+            this.Mask_cpf.Name = "Mask_cpf";
+            this.Mask_cpf.Size = new System.Drawing.Size(124, 22);
+            this.Mask_cpf.TabIndex = 11;
             // 
             // Painel_pj
             // 
-            this.Painel_pj.Controls.Add(this.textBox4);
+            this.Painel_pj.Controls.Add(this.Tbx_fantasia);
             this.Painel_pj.Controls.Add(this.label8);
             this.Painel_pj.Controls.Add(this.label9);
-            this.Painel_pj.Controls.Add(this.maskedTextBox5);
-            this.Painel_pj.Location = new System.Drawing.Point(12, 281);
+            this.Painel_pj.Controls.Add(this.Mask_cnpj);
+            this.Painel_pj.Location = new System.Drawing.Point(9, 281);
             this.Painel_pj.Name = "Painel_pj";
             this.Painel_pj.Size = new System.Drawing.Size(532, 121);
             this.Painel_pj.TabIndex = 12;
             this.Painel_pj.Visible = false;
             // 
-            // textBox4
+            // Tbx_fantasia
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(123, 65);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(383, 22);
-            this.textBox4.TabIndex = 15;
+            this.Tbx_fantasia.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tbx_fantasia.Location = new System.Drawing.Point(123, 65);
+            this.Tbx_fantasia.Name = "Tbx_fantasia";
+            this.Tbx_fantasia.Size = new System.Drawing.Size(383, 22);
+            this.Tbx_fantasia.TabIndex = 15;
             // 
             // label8
             // 
@@ -252,14 +252,14 @@
             this.label9.TabIndex = 12;
             this.label9.Text = "CNPJ:";
             // 
-            // maskedTextBox5
+            // Mask_cnpj
             // 
-            this.maskedTextBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox5.Location = new System.Drawing.Point(96, 20);
-            this.maskedTextBox5.Mask = "000.000.000-00";
-            this.maskedTextBox5.Name = "maskedTextBox5";
-            this.maskedTextBox5.Size = new System.Drawing.Size(124, 22);
-            this.maskedTextBox5.TabIndex = 11;
+            this.Mask_cnpj.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Mask_cnpj.Location = new System.Drawing.Point(96, 20);
+            this.Mask_cnpj.Mask = "000.000.000-00";
+            this.Mask_cnpj.Name = "Mask_cnpj";
+            this.Mask_cnpj.Size = new System.Drawing.Size(124, 22);
+            this.Mask_cnpj.TabIndex = 11;
             // 
             // Btn_salvar
             // 
@@ -270,35 +270,37 @@
             this.Btn_salvar.TabIndex = 13;
             this.Btn_salvar.Text = "Salvar";
             this.Btn_salvar.UseVisualStyleBackColor = true;
+            this.Btn_salvar.Click += new System.EventHandler(this.Btn_salvar_Click);
             // 
-            // BtnExbir
+            // BtnExibir
             // 
-            this.BtnExbir.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnExbir.Location = new System.Drawing.Point(230, 435);
-            this.BtnExbir.Name = "BtnExbir";
-            this.BtnExbir.Size = new System.Drawing.Size(113, 43);
-            this.BtnExbir.TabIndex = 14;
-            this.BtnExbir.Text = "Exbir";
-            this.BtnExbir.UseVisualStyleBackColor = true;
+            this.BtnExibir.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnExibir.Location = new System.Drawing.Point(230, 435);
+            this.BtnExibir.Name = "BtnExibir";
+            this.BtnExibir.Size = new System.Drawing.Size(113, 43);
+            this.BtnExibir.TabIndex = 14;
+            this.BtnExibir.Text = "Exibir";
+            this.BtnExibir.UseVisualStyleBackColor = true;
+            this.BtnExibir.Click += new System.EventHandler(this.BtnExibir_Click);
             // 
             // Tela_principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(596, 490);
-            this.Controls.Add(this.BtnExbir);
+            this.Controls.Add(this.BtnExibir);
             this.Controls.Add(this.Btn_salvar);
             this.Controls.Add(this.Painel_pj);
             this.Controls.Add(this.Painel_pf);
             this.Controls.Add(this.check_pj);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.maskedTextBox1);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.Mask_tel);
+            this.Controls.Add(this.Txb_email);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.Tbx_ende);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.Tbx_nome);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.check_pf);
             this.Name = "Tela_principal";
@@ -317,27 +319,27 @@
 
         private System.Windows.Forms.CheckBox check_pf;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox Tbx_nome;
+        private System.Windows.Forms.TextBox Tbx_ende;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox Txb_email;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.MaskedTextBox Mask_tel;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.CheckBox check_pj;
         private System.Windows.Forms.Panel Painel_pf;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
+        private System.Windows.Forms.MaskedTextBox Mask_cpf;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox3;
+        private System.Windows.Forms.MaskedTextBox Mask_data;
         private System.Windows.Forms.Panel Painel_pj;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox Tbx_fantasia;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox5;
+        private System.Windows.Forms.MaskedTextBox Mask_cnpj;
         private System.Windows.Forms.Button Btn_salvar;
-        private System.Windows.Forms.Button BtnExbir;
+        private System.Windows.Forms.Button BtnExibir;
     }
 }
 
