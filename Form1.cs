@@ -55,7 +55,16 @@ namespace Heranca
 
         private void BtnExibir_Click(object sender, EventArgs e)
         {
-
+          List <Fisica> listFisica = new List <Fisica>();
+            for (int i = 0; i <listFisica.Count; i++)
+            {
+                if (Tbx_nome.Text.Equals(listFisica[i].Nome))
+                {
+                    MessageBox.Show("Nome: " + listFisica[i].Nome + "\nEndereço: " + listFisica[i].Endereco + "\nEmail: " + listFisica[i].Email + "\nTelefone"
+               + listFisica[i].Telefone + "\nCPF: " + listFisica[i].Cpf + "\nData de nacimento: " + listFisica[i].Data_nascimento);
+                }
+               
+            }
         }
 
         private void Btn_salvar_Click(object sender, EventArgs e)
